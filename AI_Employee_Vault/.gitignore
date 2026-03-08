@@ -1,0 +1,39 @@
+# AI Employee Vault - Git Ignore
+
+# DO NOT commit sensitive data!
+
+# Credentials and secrets
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+token.json
+
+# Session data
+*.session
+session/
+.sessions/
+
+# Logs (optional - you may want to commit logs for audit)
+Logs/*.json
+Logs/*.log
+
+# Attachments (optional - may contain sensitive files)
+Attachments/
+
+# Temporary files
+*.tmp
+tmp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

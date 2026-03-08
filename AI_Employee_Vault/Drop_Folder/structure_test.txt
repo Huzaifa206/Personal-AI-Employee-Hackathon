@@ -1,0 +1,1 @@
+"This is an automatic test of the new structure." 
